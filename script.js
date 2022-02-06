@@ -56,7 +56,7 @@ function calculate() {
 
 
     // Append li as child to ul
-    resultsList.appendChild(li);
+    resultsList.insertBefore(li, resultsList.firstChild);
 }
 
 clearBtn.addEventListener('click', function () {

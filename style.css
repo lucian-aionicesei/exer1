@@ -18,8 +18,7 @@
   max-height: 8em;
   overflow-y: scroll;
   display: flex;
-  flex-direction: column;
-  justify-content: end;
+  flex-direction: column-reverse;
 }
 
 #clear {
